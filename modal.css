@@ -1,0 +1,90 @@
+@media only screen and (min-width: 813px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #17171a;
+        color: #ebebeb;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("abg.jpg");
+        z-index: 9999;
+    }
+    
+    #okvir {
+        position: relative;
+    }
+    
+    #dugme {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        background-color: #2d2d2d;
+        border: 0px solid #26262b;
+        width: 220px;
+        height: 60px;
+        color: #ebebeb;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    #dugme:hover {
+        background-color: #232323;
+    }
+    
+    #dugme:active {
+        background-color: #fafafa;
+        color: #2d2d2d;
+    }
+    
+    #pop {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(221, 221, 228, 0.8);
+        z-index: 1;
+    }
+    
+    #headic {
+        background-color: #232323;
+    }
+    
+    .popbox {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        text-align: center;
+        background-color: rgba(23, 23, 26, 0.8);
+        width: 40%;
+        color: #fafafa;
+    }
+    
+    #zatvori {
+        font-size: 16px;
+        background-color: #9e0000;
+        border: 0px solid #26262b;
+        padding: 10px 20px;
+        color: #ebebeb;
+        cursor: pointer;
+        outline: none;
+          
+    }
+    
+    #zatvori:hover {
+        background: #c10000;   
+    }
+    
+    h3 {
+        padding-top: 40px;
+        padding: 20px 20px;
+    }
+    
+    p {
+        padding: 0 20px 60px 20px;
+    }
+    }
